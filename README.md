@@ -5,7 +5,7 @@
 <!-- [![Build Status](https://travis-ci.org/jjasghar/ibm-cloud-cli.svg?branch=master)](https://travis-ci.org/jjasghar/ibm-cloud-cli) -->
 
 <!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
-## Scope
+## This page is for example sample scripts and assets to be shared
 
 The purpose of this project is to provide a template for new open source repositories.
 
