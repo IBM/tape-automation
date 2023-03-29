@@ -14,7 +14,7 @@ This page is for example sample scripts and assets to be shared.
 
 This repository contains some example best practices for open source repositories:
 
-* [LICENSE](LICENSE)
+* [LICENSE](LICENSE):
 While the Apache 2.0 License is demonstrated here, the subfolders contain assets that may have different licensing included.
 * [CONTRIBUTING.md](CONTRIBUTING.md)
 <!-- A Changelog allows you to track major changes and things that happen, https://github.com/github-changelog-generator/github-changelog-generator can help automate the process -->
