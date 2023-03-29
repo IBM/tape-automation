@@ -1,3 +1,8 @@
+#
+# Copyright 2020- IBM Inc. All rights reserved
+# SPDX-License-Identifier: Apache2.0
+#
+
 #This is the IBM Safeguard Tape Sample Script, intended to be customized by the end user that will take a list of cartridges from an online logical library to an offline logical library, and can bring them back online.
 import os
 import csv
