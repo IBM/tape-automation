@@ -23,21 +23,17 @@ All arguments are optional. Anything necessary will be interactively queried at 
 
 Arguments:
 
-  -h, --help            show this help message and exit
-  -i IP, --ip IP        IP address or hostname of library
-  -u USER, --user USER  Username for logging into the library
-  -p PASSWORD, --password PASSWORD
-                        Password for logging into the library
-  -e ENDPOINT, --endpoint ENDPOINT
-                        Specify a single endpoint to run against
-  -j, --json            Performs basic JSON validation on the response
-  -s, --showhttperror   Shows the HTTP error code with the data
-  -n, --noerror         Ignore any SSL errors
-  -r, --nourl           Do not display the URL that is being queried
-  -m METHOD, --method METHOD
-                        Default HTTP method for this request. POST, PUT, GET accepted.
-  -jp PAYLOAD, --payload PAYLOAD
-                        JSON payload for requests.
+  * **-h, --help**                        show this help message and exit
+  * **-i IP, --ip IP**                    IP address or hostname of library
+  * **-u USER, --user USER**              Username for logging into the library
+  * **-p PASSWORD, --password PASSWORD**  Password for logging into the library
+  * **-e ENDPOINT, --endpoint ENDPOINT**  Specify a single endpoint to run against
+  * **-j, --json**                        Performs basic JSON validation on the response
+  * **-s, --showhttperror**               Shows the HTTP error code with the data
+  * **-n, --noerror**                     Ignore any SSL errors
+  * **-r, --nourl**                       Do not display the URL that is being queried
+  * **-m METHOD, --method METHOD**        Default HTTP method for this request. POST, PUT, GET accepted.
+  * **-jp PAYLOAD, --payload PAYLOAD**    JSON payload for requests.
 
 The **rest.py** script assumes the following:
 
