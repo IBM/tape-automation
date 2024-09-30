@@ -1,4 +1,8 @@
 #!/usr/local/bin/python3
+#
+# Copyright 2023 IBM Inc. All rights reserved
+# SPDX-License-Identifier: Apache2.0
+#
 
 import requests
 import ssl
