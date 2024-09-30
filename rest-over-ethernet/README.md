@@ -7,10 +7,15 @@
 <!-- Description of what the example script does -->
 ## Description
 
-A user can run REST over Ethernet requests using this script.
+A user can run REST over Ethernet requests using the rest.py script provided here.
 This can be run as a single request with a login and logout request surrounding it, or as an interactive session, allowing the user to enter one request after another.
 
 When specifying an endpoint for the script, only the endpoint name should be used.
+
+Users also have the option of using cURL commands to interact with the tape library's REST API.
+
+## cURL Usage
+A guide for interacting with the library REST API is available [here](roecurl.md).
 
 <!-- Description of how to use the script -->
 ## Usage
@@ -63,5 +68,5 @@ This script was designed for the TS4500 and Diamondback tape libraries, and test
 ## Change History
 
   * Dec 28, 2023 - **Dylan Carlson** - Initial release.
-
+  * Sep 30, 2024 - **Roberta Winston** - Update documentation with cURL usage.
 
