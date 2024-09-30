@@ -21,9 +21,9 @@ rest.py [-h] [-i IP] [-u USER] [-p PASSWORD] [-e ENDPOINT] [-j] [-s] [-n] [-r] [
 
 All arguments are optional. Anything necessary will be interactively queried at runtime.
 
-Arguments:
+rest.py Arguments:
 
-  * **-h, --help**                        show this help message and exit
+  * **-h, --help**                        Show this help message and exit
   * **-i IP, --ip IP**                    IP address or hostname of library
   * **-u USER, --user USER**              Username for logging into the library
   * **-p PASSWORD, --password PASSWORD**  Password for logging into the library
@@ -34,6 +34,17 @@ Arguments:
   * **-r, --nourl**                       Do not display the URL that is being queried
   * **-m METHOD, --method METHOD**        Default HTTP method for this request. POST, PUT, GET accepted.
   * **-jp PAYLOAD, --payload PAYLOAD**    JSON payload for requests.
+
+safeguard.py Arguments:
+  * **-h, --help**                        Show this help message and exit
+  * **-i IP, --ip IP**                    IP address or hostname of library
+  * **-u USER, --user USER**              Username for logging into the library
+  * **-p PASSWORD, --password PASSWORD**  Password for logging into the library
+  * **-s SOURCE_LL, --source SOURCE_LL**  Name of logical library that cartridges will be removed from
+  * **-d DEST_LL, --destination DEST_LL** Name of logical library that cartridges will be moved to
+  * **-c, --create**                      Flag to tell script that the destination logical library must be created
+  * **-n, --noerror**                     Ignore any SSL errors
+  * **-q, --quick**                       Flag to skip completion check after requests to reassign cartridges have completed
 
 The **rest.py** script assumes the following:
 
